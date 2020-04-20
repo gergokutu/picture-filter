@@ -17,8 +17,13 @@ For example:
 $ ./filter -e ./images/courtyard.bmp filtered.bmp
 ```
 
+Original image:
+
 ![Original image](./images/courtyard.bmp)
-![Image after applying edge detection filter (-e)](./images/pic1_edges.bmp)
+
+The image after applying edge detection filter:
+
+![Filtered image](./images/pic1_edges.bmp)
 
 You can use the following flags to apply differen filters:
 
