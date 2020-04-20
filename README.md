@@ -1,6 +1,7 @@
 # BMP filter
 
 You can apply picture filters such as edge detection on bmp files. The program creates the filteres copy of the image.
+You can find some examples in ./images folder.
 
 [You can read here about the Tideman method.](https://en.wikipedia.org/wiki/Ranked_pairs)
 
@@ -9,16 +10,19 @@ You can apply picture filters such as edge detection on bmp files. The program c
 - After compilation you can run the following command in terminal: 
 
 ```console
-$ ./filter -<flag> <source.bmp> <filtered.bmp>
+$ ./filter -<flag> <./path/source.bmp> <./path/filtered.bmp>
 ```
 
-> 
-- Max canidate number is 9
-- For example: ./tideman Anna John Peter
-- Ensure the number of voters with a positive whole number
-- Type your preferences:
-  - Rank 1: Candidate number 1
-  - Rank 2: Candidate number 2
-  ...
+For example:
 
-At the end you can see the name of the winner candidate(s).
+```console
+$ ./filter -e ./images/courtyard.bmp filtered.bmp
+```
+
+You can use the following flags to apply differen filters:
+
+- g => to get black and white pictures (grayscale)
+- s => to apply the sepia effect
+- r => to reflect the image horizontally
+- b => to make the original picture a bit blury
+- e => to detect and highlight edges
