@@ -17,6 +17,9 @@ For example:
 $ ./filter -e ./images/courtyard.bmp filtered.bmp
 ```
 
+![Original image](./images/courtyard.bmp)
+![Image after applying edge detection filter (-e)](./images/pic1_edges.bmp)
+
 You can use the following flags to apply differen filters:
 
 - g => to get black and white pictures (grayscale)
@@ -30,4 +33,4 @@ You can use the following flags to apply differen filters:
 - blur filter based on the average RGB value of the surrounding pixels using 3x3 matrix
 - edge detection based on the Sobel operator
 
-[You can read about the Sobel operator here:](https://en.wikipedia.org/wiki/Sobel_operator)
+You can read about the Sobel operator by clickin [here.](https://en.wikipedia.org/wiki/Sobel_operator)
