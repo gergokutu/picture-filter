@@ -1,6 +1,6 @@
 # BMP filter
 
-You can apply picture filters such as edge detection on bmp files. The program creates the filteres copy of the image.
+You can apply picture filters such as edge detection on bmp files. The program creates the filtered copy of the image.
 You can find some examples in ./images folder.
 
 ## Usage
